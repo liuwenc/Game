@@ -1,24 +1,6 @@
-﻿  Cleaning GameEditor Binaries...
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading GameEditor (modules to compile have changed)
   Compiling game modules for hot reload
-EXEC : error : Unable to delete E:\UE4Project\Game\Binaries\Win64\UE4Editor-Game.dll (对路径“E:\UE4Project\Game\Binaries\Win64\UE4Editor-Game.dll”的访问被拒绝。)
-  Creating makefile for hot reloading GameEditor (no existing makefile)
-  Compiling game modules for hot reload
-  Performing full C++ include scan (no include cache file)
-  Parsing headers for GameEditor
-    Running UnrealHeaderTool "E:\UE4Project\Game\Game.uproject" "E:\UE4Project\Game\Intermediate\Build\Win64\GameEditor\Development\GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GameEditor in 10.9162135 seconds
-  Performing 9 actions (4 in parallel)
-  [2/9] Resource ModuleVersionResource.rc.inl
-  [3/9] Resource PCLaunch.rc
-  SharedPCH.Engine.cpp
-  Game.cpp
-  Game.init.gen.cpp
-  GameGameModeBase.gen.cpp
-  GameGameModeBase.cpp
-  [8/9] Link UE4Editor-Game-9971.dll
-  [9/9] Link UE4Editor-Game-9971.lib
-    正在创建库 E:\UE4Project\Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Game-9971.lib 和对象 E:\UE4Project\Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Game-9971.exp
-    正在创建库 E:\UE4Project\Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Game-9971.suppressed.lib 和对象 E:\UE4Project\Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Game-9971.suppressed.exp
+  Target is up to date
   Deploying GameEditor Win64 Development...
-  Total build time: 61.35 seconds (Local executor: 44.59 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: 命令“F:\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat GameEditor Win64 Development "E:\UE4Project\Game\Game.uproject" -waitmutex”已退出，代码为 -1。
+  Total build time: 6.69 seconds (NoActionsToExecute executor: 0.00 seconds)
